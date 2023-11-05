@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../sass/base/_reset.sass"],"names":[],"mappings":"AAAA,EACI,SACA","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../../sass/components/_planet.sass","../../sass/abstracts/_variables.sass","../../sass/components/_sun.sass"],"names":[],"mappings":"AAOA,QACI,yBACA,mBACA,YACA,aAEA,iBACI,MCbO,gBDcP,OCdO,gBDeP,sBAEJ,eACI,MCjBK,gBDkBL,OClBK,gBDmBL,wBAEJ,eACI,MCxBK,MDyBL,OCzBK,WCCT,wBACA,YACA,aACA","file":"main.css"}

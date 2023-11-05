@@ -1,0 +1,26 @@
+@use "../abstracts/_variables.sass" as var
+
+// taille de la terre c'est 100 px de diamètre
+// calculer la taille des autres :
+// mercure : 2.6 plus petite
+// venus : 1.1 plus petite
+
+.planet
+    background-color: blueviolet
+    border-radius: 100%
+    width: 150px
+    height: 150px
+
+    &--mercury
+        width: var.$mercury-size
+        height: var.$mercury-size
+        background-color: yellow
+
+    &--venus
+        width: var.$venus-size
+        height: var.$venus-size
+        background-color: purple
+
+    &--earth
+        width: var.$earth-size
+        height: var.$earth-size
