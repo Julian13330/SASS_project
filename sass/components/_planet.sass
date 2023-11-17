@@ -1,4 +1,4 @@
-@use "../abstracts/_variables.sass" as var
+@use "../abstracts/_all.sass" as abstracts
 
 // taille de la terre c'est 100 px de diamètre
 // calculer la taille des autres :
@@ -6,21 +6,13 @@
 // venus : 1.1 plus petite
 
 .planet
-    background-color: blueviolet
-    border-radius: 100%
-    width: 150px
-    height: 150px
+    @include abstracts.circle(150px, black)
 
     &--mercury
-        width: var.$mercury-size
-        height: var.$mercury-size
-        background-color: yellow
+        @include abstracts.circle(abstracts.$mercury-size, green)
 
     &--venus
-        width: var.$venus-size
-        height: var.$venus-size
-        background-color: purple
+        @include abstracts.circle(abstracts.$venus-size, purple)
 
     &--earth
-        width: var.$earth-size
-        height: var.$earth-size
+        @include abstracts.circle(abstracts.$earth-size, blue)
